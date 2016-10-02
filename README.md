@@ -1,2 +1,2 @@
 #### My personal blog and resume
-Powered by Jekyll
+Bulit with [Jekyll](http://jekyllrb.com/) and hosted by [github pages](https://pages.github.com/)
