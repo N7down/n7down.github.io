@@ -37,9 +37,3 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
-
-/* path to glyphicons */
-$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
-/* any style customization must be before the bootstrap import */
-@import "bootstrap";
