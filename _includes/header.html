@@ -4,7 +4,7 @@
 
     {% assign custom_url = site.url | append: site.baseurl %}
     {% assign full_base_url = custom_url | default: site.github.url %}
-    <a class="site-title" href="{{ full_base_url }}/">{{ site.title | escape }}</a>
+    <!-- <a class="site-title" href="{{ full_base_url }}/">{{ site.title | escape }}</a> -->
 
     <nav class="site-nav">
       <span class="menu-icon">
@@ -16,11 +16,14 @@
       </span>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
+        <!-- {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: full_base_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+
+        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+        <a class="page-link" href="https://n7down.github.io/vitae">Resume</a>
       </div>
     </nav>
 

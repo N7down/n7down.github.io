@@ -4,17 +4,25 @@ layout: default
 
 <div class="home">
 
+  <h3 style="text-align: center">Joshua Adams</h3>
+  <h5 style="text-align: center">Software Engineer</h5>
+
+  <img src="{{ site.url }}static/images/profile.jpg" class="portrait img-circle img-responsive center-block" alt="Joshua Adams">
+  <h6 style="text-align: center"><span class="fa fa-map-marker">&nbsp;<b>Salt Lake City, USA</b></span></h6>
+  <div class="icon">
+    <a href="mailto:{{ site.email }}"><span class="fa fa-envelope"></span></a>
+    <a href="https://github.com/{{ site.github }}"><span class="fa fa-github"></span></a>
+    <a href="{{ site.linkedin }}"><span class="fa fa-linkedin"></span></a>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss"></span></a>
+  </div>
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+       <li>
+         {{ post.date | date: "%b %-d, %Y" }} &nbsp;-&nbsp; <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+       </li>
     {% endfor %}
   </ul>
 
