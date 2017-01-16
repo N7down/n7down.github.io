@@ -3,6 +3,7 @@ markdown: redcarpet
 pygments: true
 
 title: Engineering Blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://n7down.github.io"
 email: Joshua.sovanh.adams@gmail.com
 github: n7down
