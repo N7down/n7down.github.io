@@ -1,6 +1,6 @@
 name: Iva
-markdown: redcarpet
-pygments: true
+#markdown: redcarpet
+highlighter: true
 
 title: Engineering Blog
 baseurl: "" # the subpath of your site, e.g. /blog
