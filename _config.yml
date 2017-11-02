@@ -17,7 +17,7 @@
 author: Joshua Adams
 # description: Minimal, responsive Jekyll theme for hackers.
 baseurl: "/Blog" # the subpath of your site, e.g. /blog
-# url: "https://yous.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://n7down.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: UTC
 exclude:
